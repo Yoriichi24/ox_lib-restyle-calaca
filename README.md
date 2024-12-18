@@ -1,3 +1,9 @@
+<sub>Preview:</sub> <br>
+![ox_lib-restyle](https://github.com/user-attachments/assets/a30319b0-a99b-4dc4-800e-d74c798b30ee)
+
+<sub>Video Preview:</sub> <br>
+[![Watch the video](https://img.youtube.com/vi/IqqXoCce5fE/0.jpg)](https://youtu.be/IqqXoCce5fE?si=96jOqsPw1yUi198g)
+
 # ox_lib
 
 A FiveM library and resource implementing reusable modules, methods, and UI elements.
