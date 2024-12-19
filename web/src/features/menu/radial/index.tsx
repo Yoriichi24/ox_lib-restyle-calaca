@@ -17,11 +17,11 @@ const useStyles = createStyles((theme) => ({
     transform: 'translate(-50%, -50%)',
   },
   sector: {
-    fill: theme.colors.dark[6],
-    color: theme.colors.dark[0],
+    fill: theme.colors.black2[5],
+    color: '#fff',
 
     '&:hover': {
-      fill: theme.fn.primaryColor(),
+      fill: theme.colors.blue[6],
       cursor: 'pointer',
       '> g > text, > g > svg > path': {
         fill: '#fff',
@@ -33,16 +33,16 @@ const useStyles = createStyles((theme) => ({
     },
   },
   backgroundCircle: {
-    fill: theme.colors.dark[6],
+    fill: theme.colors.black2[5],
   },
   centerCircle: {
-    fill: theme.fn.primaryColor(),
+    fill: theme.colors.blue[5],
     color: '#fff',
-    stroke: theme.colors.dark[6],
+    stroke: theme.colors.black2[5],
     strokeWidth: 4,
     '&:hover': {
       cursor: 'pointer',
-      fill: theme.colors[theme.primaryColor][theme.fn.primaryShade() - 1],
+      fill: theme.colors.pink[5],
     },
   },
   centerIconContainer: {
@@ -159,7 +159,7 @@ const RadialMenu: React.FC = () => {
             {menuItems.map((item, index) => {
               const pieAngle = 360 / (menuItems.length < 3 ? 3 : menuItems.length);
               const angle = degToRad(pieAngle / 2 + 90);
-              const gap = 1;
+              const gap = 0;
               const radius = 175 * 0.65 - gap;
               const sinAngle = Math.sin(angle);
               const cosAngle = Math.cos(angle);
