@@ -30,10 +30,10 @@ const useStyles = createStyles((theme, params: { disabled?: boolean; readOnly?: 
     width: '100%',
     padding: 10,
     backgroundColor: params.readOnly ? 'rgba(44, 44, 44, 0.9)' : theme.colors.black2[5],
-    border: params.readOnly ? '1px solid #C1C1C1' : `1px solid ${theme.colors.grey[5]}`,
+    border: params.readOnly ? '1px solid #C1C1C1' : `1px solid rgba(50, 50, 50, 0.808)`,
     '&:hover': {
       background: params.readOnly
-        ? 'linear-gradient(90deg, rgba(44, 44, 44, 0.9), rgba(83, 83, 83, 0.9))'
+        ? 'radial-gradient(circle, #0f0f0fc5 0%, #0f0f0fce 100%)'
         : `linear-gradient(to right, rgba(36,36,36,0.9), rgba(23,23,23,0.9))`,
       cursor: params.readOnly ? 'unset' : 'pointer',
     },

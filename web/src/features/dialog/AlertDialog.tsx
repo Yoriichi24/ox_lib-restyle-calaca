@@ -11,7 +11,7 @@ import MarkdownComponents from '../../config/MarkdownComponents';
 const useStyles = createStyles((theme) => ({
   modalContent: {
     backgroundColor: theme.colors.black2[5],
-    border: `1px solid ${theme.colors.grey[5]}`,
+    border: `1px solid rgba(50, 50, 50, 0.808)`,
   },
   modalHeader: {
     color: theme.colors.white[5],
@@ -42,7 +42,7 @@ const useStyles = createStyles((theme) => ({
   gradientLine: {
     height: '3px',
     width: '100%',
-    background: `linear-gradient(to right, ${theme.colors.blue[5]}, ${theme.colors.pink[5]})`,
+    background: `linear-gradient(to right, ${theme.colors.black[5]}, ${theme.colors.red[5]})`,
     marginTop: theme.spacing.xs,
     marginBottom: theme.spacing.md
   },

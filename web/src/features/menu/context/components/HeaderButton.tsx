@@ -19,7 +19,7 @@ const useStyles = createStyles((theme, params: { canClose?: boolean }) => ({
     justifyContent: 'center',
     padding: 2,
     backgroundColor: theme.colors.black2[5],
-    border: `1px solid ${theme.colors.grey[5]}`,
+    border: `1px solid rgba(50, 50, 50, 0.808)`,
   },
   root: {
     border: 'none',

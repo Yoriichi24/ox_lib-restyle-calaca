@@ -25,7 +25,7 @@ const useStyles = createStyles((theme, params: { position?: TextUiPosition }) =>
     fontSize: 14,
     padding: 12,
     margin: 8,
-    border: `1px solid ${theme.colors.grey[5]}`,
+    border: `1px solid rgba(50, 50, 50, 0.808);`,
     backgroundColor: theme.colors.black2[5],
     color: theme.colors.white[5],
     fontFamily: 'Montserrat',

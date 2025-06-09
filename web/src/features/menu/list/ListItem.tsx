@@ -20,14 +20,14 @@ const useStyles = createStyles((theme, params: { iconColor?: string }) => ({
     padding: 2,
     height: 60,
     scrollMargin: 8,
-    border: `1px solid ${theme.colors.grey[5]}`,
+    border: `1px solid rgba(50, 50, 50, 0.808);`,
     transition: 'background 0.3s ease',
     '&:hover': {
-      background: `linear-gradient(to right, rgba(36,36,36,0.9), rgba(23,23,23,0.9))`,
+      background: `radial-gradient(circle, #0f0f0fc5 0%, #0f0f0fce 100%)`,
       outline: 'none',
     },
     '&:focus': {
-      background: `linear-gradient(to right, rgba(36,36,36,0.9), rgba(23,23,23,0.9))`,
+      background: `radial-gradient(circle, #0f0f0fc5 0%, #0f0f0fce 100%)`,
       outline: 'none',
     },
   },

@@ -6,9 +6,9 @@ import React from 'react';
 const useStyles = createStyles((theme) => ({
   container: {
     textAlign: 'center',
-    borderLeft: `1px solid ${theme.colors.grey[5]}`,
-    borderRight: `1px solid ${theme.colors.grey[5]}`,
-    borderTop: `1px solid ${theme.colors.grey[5]}`,
+    borderLeft: `1px solid rgba(50, 50, 50, 0.808)`,
+    borderRight: `1px solid rgba(50, 50, 50, 0.808)`,
+    borderTop: `1px solid rgba(50, 50, 50, 0.808)`,
     borderTopLeftRadius: theme.radius.sm,
     borderTopRightRadius: theme.radius.sm,
     backgroundColor: theme.colors.black2[5],
@@ -29,7 +29,7 @@ const useStyles = createStyles((theme) => ({
   line: {
     width: '100%',
     height: 3,
-    background: `linear-gradient(to right, ${theme.colors.blue[5]}, ${theme.colors.pink[5]})`,
+    background: `linear-gradient(to right, ${theme.colors.black[5]}, ${theme.colors.red[5]})`,
   },
 }));
 

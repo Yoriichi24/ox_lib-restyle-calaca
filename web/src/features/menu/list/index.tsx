@@ -30,8 +30,8 @@ const useStyles = createStyles((theme, params: { position?: MenuPosition; itemCo
     width: 384,
   },
   buttonsWrapper: {
-    borderLeft: `1px solid ${theme.colors.grey[5]}`,
-    borderRight: `1px solid ${theme.colors.grey[5]}`,
+    borderLeft: `1px solid rgba(50, 50, 50, 0.808)`,
+    borderRight: `1px solid rgba(50, 50, 50, 0.808)`,
     height: 'fit-content',
     maxHeight: 415,
     overflow: 'hidden',
@@ -41,9 +41,9 @@ const useStyles = createStyles((theme, params: { position?: MenuPosition; itemCo
     borderTopRightRadius: 0,
   },
   scrollArrow: {
-    borderBottom: `1px solid ${theme.colors.grey[5]}`,
-    borderLeft: `1px solid ${theme.colors.grey[5]}`,
-    borderRight: `1px solid ${theme.colors.grey[5]}`,
+    borderBottom: `1px solid rgba(50, 50, 50, 0.808)`,
+    borderLeft: `1px solid rgba(50, 50, 50, 0.808)`,
+    borderRight: `1px solid rgba(50, 50, 50, 0.808)`,
     backgroundColor: theme.colors.black2[5],
     textAlign: 'center',
     borderBottomLeftRadius: theme.radius.sm,

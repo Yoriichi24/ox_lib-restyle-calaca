@@ -21,7 +21,7 @@ const useStyles = createStyles((theme) => ({
     color: '#fff',
 
     '&:hover': {
-      fill: theme.colors.blue[6],
+      fill: `rgba(50, 50, 50, 0.808)`,
       cursor: 'pointer',
       '> g > text, > g > svg > path': {
         fill: '#fff',
@@ -36,7 +36,7 @@ const useStyles = createStyles((theme) => ({
     fill: theme.colors.black2[5],
   },
   centerCircle: {
-    fill: theme.colors.blue[5],
+    fill: theme.colors.red[5],
     color: '#fff',
     stroke: theme.colors.black2[5],
     strokeWidth: 4,
